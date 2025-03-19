@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nosso Site de Amor</h1>
+    </header>
+
+    <section id="contador">
+        <h2>Contador de Dias</h2>
+        <p id="dias-juntos"></p>
+    </section>
+
+    <section id="imagens">
+        <h2>Nossas Memórias</h2>
+        <img src="imagem1.jpg" alt="Foto do casal" />
+        <img src="imagem2.jpg" alt="Outro momento especial" />
+    </section>
+
+    <section id="musica">
+        <h2>Nosso Som</h2>
+        <audio controls>
+            <source src="musica.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
