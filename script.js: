@@ -1,0 +1,13 @@
+// Definindo a data de início
+const dataInicio = new Date("2021-12-25"); // 
+
+// Função para calcular os dias
+function calcularDias() {
+    const hoje = new Date();
+    const diferenca = hoje - dataInicio;
+    const dias = Math.floor(diferenca / (1000 * 3600 * 24));
+    document.getElementById("dias-juntos").innerHTML = `Estamos juntos há ${dias} dias!`;
+}
+
+// Chama a função ao carregar a página
+window.onload = calcularDias;
